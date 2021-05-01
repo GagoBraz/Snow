@@ -19,6 +19,12 @@ public class InputController : MonoBehaviour
         }
     }
 
-
+    public static bool hidingControl
+    {
+        get
+        {
+            return Input.GetKey(KeyCode.E);
+        }
+    }
 
 }
