@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InputController : MonoBehaviour
+public class InputController
 {
     public static float movingAxisX 
     { get
@@ -26,5 +26,13 @@ public class InputController : MonoBehaviour
             return Input.GetKey(KeyCode.E);
         }
     }
+
+    public static bool hidingBarControl {
+        get
+        {
+            return Input.GetMouseButton(0);
+        }
+    }
+
 
 }
