@@ -23,7 +23,7 @@ public class InputController : MonoBehaviour
     {
         get
         {
-            return Input.GetKeyDown(KeyCode.E);
+            return Input.GetKey(KeyCode.E);
         }
     }
 

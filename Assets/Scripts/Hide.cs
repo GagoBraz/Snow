@@ -8,6 +8,11 @@ public class Hide : MonoBehaviour
     PlayerManager _currentManager;
     bool _ableToHide = false;
     Transform _currentTarget = null;
+
+    float _secondsToWait = 0.0f;
+    [SerializeField]
+    float maxSecondsToWait = 4.0f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,9 +31,14 @@ public class Hide : MonoBehaviour
         {
             if (_ableToHide)
             {
-                ChangeCurrentState();       
+                if(_secondsToWait > maxSecondsToWait)
+                {
+                    ChangeCurrentState();
+                    _secondsToWait = 0.0f;
+                }
             }
         }
+        _secondsToWait += Time.fixedDeltaTime;
     }
 
     private void ChangeCurrentState()
