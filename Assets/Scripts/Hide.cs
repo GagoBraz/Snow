@@ -13,10 +13,14 @@ public class Hide : MonoBehaviour
     [SerializeField]
     float maxSecondsToWait = 4.0f;
 
+    [SerializeField]
+    BarGame hideBar;
+
     // Start is called before the first frame update
     void Start()
     {
         _currentManager = this.GetComponent<PlayerManager>();
+        hideBar.onMiniGameLose += DisableHideGame;
        
     }
 
@@ -44,14 +48,12 @@ public class Hide : MonoBehaviour
     private void ChangeCurrentState()
     {
         if (_currentManager.PlayerState == PlayerState.RUNNING)
-        {
-            _currentManager.PlayerState = PlayerState.HIDING;
-           
-            this.transform.position = _currentTarget.position;
+        {   
+            EnableHideGame();
         }
         else
         {
-            _currentManager.PlayerState = PlayerState.RUNNING;
+            DisableHideGame();
         }
     }
 
@@ -70,5 +72,18 @@ public class Hide : MonoBehaviour
             _ableToHide = false;
             
         }
+    }
+
+    private void EnableHideGame()
+    {
+        _currentManager.PlayerState = PlayerState.HIDING;
+        this.transform.position = _currentTarget.position;
+        hideBar.gameObject.SetActive(true);
+    }
+
+    private void DisableHideGame()
+    {
+        hideBar.gameObject.SetActive(false);
+        _currentManager.PlayerState = PlayerState.RUNNING;
     }
 }
