@@ -12628,6 +12628,7 @@ MonoBehaviour:
   topPivot: {fileID: 534123573}
   bottomPivot: {fileID: 436406451}
   thumb: {fileID: 1969359308}
+  _playerManager: {fileID: 1728784045}
   timerMultiplicator: 3
   smoothMotion: 1
   thumbSpeed: 1
