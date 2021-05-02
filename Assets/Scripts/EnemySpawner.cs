@@ -2,16 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+public enum Wave
+{
+    FIRST,
+    SECOND,
+    THIRD,
+}
+
+
 public class EnemySpawner : MonoBehaviour
 {
-    private enum Wave
-    {
-        FIRST,
-        SECOND, 
-        THIRD,
-    }
+    
 
-    private Wave wave = Wave.FIRST;
+    
 
     [SerializeField]
     float timetoWaitOnWaves = 60f;
@@ -42,9 +46,10 @@ public class EnemySpawner : MonoBehaviour
         if (_currentTime >= timetoWaitOnWaves)
         {
             SpawnWolf();
+            GameManager.instance.waveChange.Invoke();
             _currentTime = 0;
-            wave++;
-            switch (wave)
+            GameManager.instance.wave++;
+            switch (GameManager.instance.wave)
             {
                 case Wave.FIRST:
                     _wolvesToSpawn = 1;
