@@ -9,6 +9,7 @@ public class Movement : MonoBehaviour
 {
     private Rigidbody2D _rbody;
     private PlayerManager _playerManager;
+    public Animator animator;
 
     #region "STATS"
     [SerializeField]
@@ -42,7 +43,7 @@ public class Movement : MonoBehaviour
             float yInput = InputController.movingAxisY;
 
             Vector2 vecAc = new Vector2(xInput, yInput);
-
+            
             _rbody.AddForce(vecAc);
 
             Vector2 dir = _rbody.velocity.normalized;
@@ -68,6 +69,8 @@ public class Movement : MonoBehaviour
         Vector2 newVelocity = Vector2.zero;
         newVelocity.x = Mathf.Clamp(Mathf.Abs(velocity.x), _MIN_VELOCITY_X, MAX_VELOCITY_X);
         newVelocity.y = Mathf.Clamp(Mathf.Abs(velocity.y), _MIN_VELOCITY_Y, MAX_VELOCITY_Y);
+
+        animator.SetFloat("Speed",newVelocity.magnitude);
 
         return newVelocity;
     }
