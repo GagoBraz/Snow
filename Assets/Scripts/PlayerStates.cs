@@ -1,5 +1,6 @@
 ﻿public enum PlayerState 
 {
     RUNNING, 
-    HIDING
+    HIDING,
+    DEAD
 }

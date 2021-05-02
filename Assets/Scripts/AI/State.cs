@@ -26,6 +26,8 @@ public class State
     protected State nextState;
 
     protected Rigidbody2D _rbody;
+    protected PlayerManager _playerManager;
+
 
     protected List<GameObject> goToPoints = new List<GameObject>();
 
@@ -44,6 +46,7 @@ public class State
         this.player = player;
         this._rbody = rbody;
         this.goToPoints = goToPoints;
+        this._playerManager = player.GetComponent<PlayerManager>();
     }
 
 

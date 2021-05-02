@@ -8,7 +8,6 @@ public class AI : MonoBehaviour
 
     
     Animator anim;
-
     private Transform _player;
     State currentState;
     private Rigidbody2D _rbody;

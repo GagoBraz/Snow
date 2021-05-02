@@ -5,17 +5,13 @@ using UnityEngine;
 public class PlayerManager : MonoBehaviour
 {
 
+    [HideInInspector]
     public PlayerState PlayerState = PlayerState.RUNNING;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    public void CallGameOver()
     {
-        
+        Debug.Log("Game over!");
+        PlayerState = PlayerState.DEAD;
     }
 }

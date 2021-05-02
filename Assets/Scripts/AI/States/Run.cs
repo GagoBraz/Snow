@@ -6,8 +6,8 @@ public class Run : State
 {
     List<Collider2D> _colliders = new List<Collider2D>();
     Collider2D _playerCollider;
-    float _velocity = 5.0f;
-    float _acceleration = 0.1f;
+    float _velocity = 3.0f;
+    float _acceleration = 0.0001f;
 
     public Run(GameObject npc, Animator anim, Transform player, Rigidbody2D rbody, List<GameObject> goToPoints) :
         base(npc, anim, player, rbody, goToPoints)
@@ -45,16 +45,29 @@ public class Run : State
 
         this.npc.transform.rotation = Quaternion.Slerp(this.npc.transform.rotation, lookatWP, _rotSpeed * Time.deltaTime);
 
-        this.npc.transform.Translate(0, 0, _velocity * Time.deltaTime);
+        this.npc.transform.Translate(0, 0, _velocity * Time.fixedDeltaTime);
         _velocity += _acceleration;
     }
+
+
     private void CheckPlayer()
     {
         Collider2D currentCollider = _colliders.Find(x => x.name.Equals("DetectionRange"));
         if (currentCollider)
         {
-            if (!currentCollider.IsTouching(_playerCollider))
+            if (!currentCollider.IsTouching(_playerCollider) || _playerManager.PlayerState == PlayerState.HIDING)
             {
+                nextState = new Patrol(npc, anim, player, _rbody, goToPoints);
+                stage = EVENT.EXIT;
+            }
+        }
+
+        Collider2D biteCollider = _colliders.Find(x => x.name.Equals("BiteRange"));
+        if (biteCollider)
+        {
+            if(biteCollider.IsTouching(_playerCollider) && _playerManager.PlayerState == PlayerState.RUNNING)
+            {
+                _playerManager.CallGameOver();
                 nextState = new Patrol(npc, anim, player, _rbody, goToPoints);
                 stage = EVENT.EXIT;
             }

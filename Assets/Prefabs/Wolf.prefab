@@ -44,7 +44,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0420146, y: -0.044573307}
+  m_Offset: {x: -0.02251941, y: -0.1248641}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -55,7 +55,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.8402872, y: 2.6937609}
+  m_Size: {x: 1.264465, y: 2.661645}
   m_EdgeRadius: 0
 --- !u!1 &6648024164254490178
 GameObject:
@@ -71,7 +71,7 @@ GameObject:
   - component: {fileID: 5116211679372811053}
   - component: {fileID: 6648024164254490176}
   - component: {fileID: -966601612663575939}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wolf
   m_TagString: Enemy
   m_Icon: {fileID: 0}
