@@ -11,6 +11,8 @@ public class BarGame : MonoBehaviour
     RectTransform bottomPivot;
     [SerializeField]
     RectTransform thumb;
+    [SerializeField]
+    PlayerManager _playerManager;
 
 
     float _thumbPosition;
@@ -63,11 +65,15 @@ public class BarGame : MonoBehaviour
 
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         MoveThumb();
         MoveHook();
         CheckBounds();
+    }
+
+    private void Update()
+    {
         InterpolateColor();
     }
 
@@ -80,7 +86,7 @@ public class BarGame : MonoBehaviour
             _thumbDestination = Random.value;
         }
 
-        _thumbPosition = Mathf.SmoothDamp(_thumbPosition, _thumbDestination, ref thumbSpeed, smoothMotion);
+        _thumbPosition = Mathf.SmoothDamp(_thumbPosition, _thumbDestination, ref thumbSpeed, _playerManager.ConfidenceMotion);
         thumb.position = Vector3.Lerp(bottomPivot.position, topPivot.position, _thumbPosition);
     }
 
@@ -148,4 +154,6 @@ public class BarGame : MonoBehaviour
     {
         onMiniGameLose.Invoke();
     }
+
+   
 }
