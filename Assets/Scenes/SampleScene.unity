@@ -283,7 +283,7 @@ GameObject:
   - component: {fileID: 80970542}
   - component: {fileID: 80970543}
   - component: {fileID: 80970544}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: New Sprite (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -379,7 +379,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 171007000}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: HidingSpot
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
@@ -409,7 +409,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 186469316}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: HidingSpot
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
@@ -441,7 +441,7 @@ GameObject:
   - component: {fileID: 224791571}
   - component: {fileID: 224791572}
   - component: {fileID: 224791573}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: New Sprite (30)
   m_TagString: Place
   m_Icon: {fileID: 0}
@@ -666,7 +666,7 @@ GameObject:
   - component: {fileID: 271992584}
   - component: {fileID: 271992585}
   - component: {fileID: 271992586}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: New Sprite (23)
   m_TagString: Place
   m_Icon: {fileID: 0}
@@ -765,7 +765,7 @@ GameObject:
   - component: {fileID: 291806904}
   - component: {fileID: 291806905}
   - component: {fileID: 291806906}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: New Sprite (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1121,7 +1121,7 @@ GameObject:
   - component: {fileID: 433771001}
   - component: {fileID: 433771002}
   - component: {fileID: 433771003}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: New Sprite (24)
   m_TagString: Place
   m_Icon: {fileID: 0}
@@ -1220,7 +1220,7 @@ GameObject:
   - component: {fileID: 435048551}
   - component: {fileID: 435048552}
   - component: {fileID: 435048553}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: New Sprite (9)
   m_TagString: Place
   m_Icon: {fileID: 0}
@@ -1352,7 +1352,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 458979138}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: HidingSpot
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
@@ -1384,7 +1384,7 @@ GameObject:
   - component: {fileID: 460706242}
   - component: {fileID: 460706243}
   - component: {fileID: 460706244}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: New Sprite (29)
   m_TagString: Place
   m_Icon: {fileID: 0}
@@ -1483,7 +1483,7 @@ GameObject:
   - component: {fileID: 471763418}
   - component: {fileID: 471763419}
   - component: {fileID: 471763420}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: New Sprite (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1580,7 +1580,7 @@ GameObject:
   m_Component:
   - component: {fileID: 492194037}
   - component: {fileID: 492194038}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: FirstLayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1662,7 +1662,7 @@ GameObject:
   - component: {fileID: 509868943}
   - component: {fileID: 509868944}
   - component: {fileID: 509868945}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: New Sprite (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2089,7 +2089,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 520510490}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: HidingSpot
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
@@ -2300,7 +2300,7 @@ GameObject:
   - component: {fileID: 555777211}
   - component: {fileID: 555777212}
   - component: {fileID: 555777213}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: New Sprite (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2398,7 +2398,7 @@ GameObject:
   - component: {fileID: 561551800}
   - component: {fileID: 561551801}
   - component: {fileID: 561551802}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: New Sprite (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2494,7 +2494,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 561765955}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: HidingSpot
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
@@ -2526,7 +2526,7 @@ GameObject:
   - component: {fileID: 581323171}
   - component: {fileID: 581323172}
   - component: {fileID: 581323173}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: New Sprite (16)
   m_TagString: Place
   m_Icon: {fileID: 0}
@@ -2625,7 +2625,7 @@ GameObject:
   - component: {fileID: 625979267}
   - component: {fileID: 625979268}
   - component: {fileID: 625979269}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: New Sprite (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2721,7 +2721,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 640464613}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: HidingSpot
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
@@ -2751,7 +2751,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 640944928}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: HidingSpot
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
@@ -2994,7 +2994,7 @@ GameObject:
   - component: {fileID: 757133407}
   - component: {fileID: 757133408}
   - component: {fileID: 757133409}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: New Sprite (31)
   m_TagString: Place
   m_Icon: {fileID: 0}
@@ -3181,7 +3181,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 829805205}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: HidingSpot
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
@@ -3213,7 +3213,7 @@ GameObject:
   - component: {fileID: 872328002}
   - component: {fileID: 872328003}
   - component: {fileID: 872328004}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: New Sprite (12)
   m_TagString: Place
   m_Icon: {fileID: 0}
@@ -3342,7 +3342,7 @@ GameObject:
   - component: {fileID: 909106385}
   - component: {fileID: 909106386}
   - component: {fileID: 909106387}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: New Sprite (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3440,7 +3440,7 @@ GameObject:
   - component: {fileID: 941370583}
   - component: {fileID: 941370584}
   - component: {fileID: 941370585}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: New Sprite (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3550,7 +3550,7 @@ GameObject:
   - component: {fileID: 1011591861}
   - component: {fileID: 1011591862}
   - component: {fileID: 1011591863}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: New Sprite (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3887,7 +3887,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1196831052}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: HidingSpot
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
@@ -3919,7 +3919,7 @@ GameObject:
   - component: {fileID: 1268020069}
   - component: {fileID: 1268020070}
   - component: {fileID: 1268020071}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: New Sprite (15)
   m_TagString: Place
   m_Icon: {fileID: 0}
@@ -4152,7 +4152,7 @@ GameObject:
   - component: {fileID: 1291181754}
   - component: {fileID: 1291181755}
   - component: {fileID: 1291181756}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: New Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4426,7 +4426,7 @@ GameObject:
   - component: {fileID: 1438610811}
   - component: {fileID: 1438610812}
   - component: {fileID: 1438610813}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: New Sprite (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4522,7 +4522,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1439595088}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4584,7 +4584,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1464097713}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: HidingSpot
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
@@ -4933,7 +4933,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1582217038}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: HidingSpot
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
@@ -4965,7 +4965,7 @@ GameObject:
   - component: {fileID: 1625774633}
   - component: {fileID: 1625774634}
   - component: {fileID: 1625774635}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: New Sprite (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5063,7 +5063,7 @@ GameObject:
   - component: {fileID: 1627082110}
   - component: {fileID: 1627082111}
   - component: {fileID: 1627082112}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: New Sprite (8)
   m_TagString: Place
   m_Icon: {fileID: 0}
@@ -5162,7 +5162,7 @@ GameObject:
   - component: {fileID: 1639718897}
   - component: {fileID: 1639718898}
   - component: {fileID: 1639718899}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: New Sprite (10)
   m_TagString: Place
   m_Icon: {fileID: 0}
@@ -5291,7 +5291,7 @@ GameObject:
   - component: {fileID: 1682478002}
   - component: {fileID: 1682478003}
   - component: {fileID: 1682478004}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: New Sprite (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5387,7 +5387,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1686224456}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Places
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5452,7 +5452,7 @@ GameObject:
   - component: {fileID: 1695282291}
   - component: {fileID: 1695282292}
   - component: {fileID: 1695282293}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: New Sprite (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5550,7 +5550,7 @@ GameObject:
   - component: {fileID: 1727392329}
   - component: {fileID: 1727392330}
   - component: {fileID: 1727392331}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: New Sprite (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5882,7 +5882,7 @@ GameObject:
   - component: {fileID: 1767568222}
   - component: {fileID: 1767568223}
   - component: {fileID: 1767568224}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: New Sprite (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5980,7 +5980,7 @@ GameObject:
   - component: {fileID: 1805066018}
   - component: {fileID: 1805066019}
   - component: {fileID: 1805066020}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: New Sprite (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6076,7 +6076,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1814042668}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: HidingSpot
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
@@ -6185,7 +6185,7 @@ GameObject:
   - component: {fileID: 1893365827}
   - component: {fileID: 1893365828}
   - component: {fileID: 1893365829}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: New Sprite (14)
   m_TagString: Place
   m_Icon: {fileID: 0}
@@ -6656,7 +6656,7 @@ GameObject:
   - component: {fileID: 2038292147}
   - component: {fileID: 2038292148}
   - component: {fileID: 2038292149}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: New Sprite (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6754,7 +6754,7 @@ GameObject:
   - component: {fileID: 2047915640}
   - component: {fileID: 2047915641}
   - component: {fileID: 2047915642}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: New Sprite (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7045,7 +7045,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2098449309}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: HidingSpot
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
@@ -7077,7 +7077,7 @@ GameObject:
   - component: {fileID: 2118118456}
   - component: {fileID: 2118118457}
   - component: {fileID: 2118118458}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: New Sprite (13)
   m_TagString: Place
   m_Icon: {fileID: 0}
