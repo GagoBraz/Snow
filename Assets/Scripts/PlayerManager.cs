@@ -9,8 +9,10 @@ public class PlayerManager : MonoBehaviour
     [HideInInspector]
     public PlayerState PlayerState = PlayerState.RUNNING;
     #endregion
+    [SerializeField]
+    private float _confidence_bias = 0.05f;
 
-    private float _confidence_bias = 0.0001f;
+    private readonly Vector2 DEFAULT_POSITION = new Vector2(-3.33f, -1.53f);
 
     private void FixedUpdate()
     {
@@ -34,18 +36,26 @@ public class PlayerManager : MonoBehaviour
     {
         Debug.Log("Game over!");
         PlayerState = PlayerState.DEAD;
+        GameManager.instance.CallGameOver();
     }
 
     private void IncreaseConfidence()
     {
         ConfidenceMotion += _confidence_bias * 2 * Time.fixedDeltaTime;
-        ConfidenceMotion = Mathf.Clamp(ConfidenceMotion, 0.2f, 1);
+        ConfidenceMotion = Mathf.Clamp(ConfidenceMotion, 0.01f, 1);
     }
 
 
     private void DecreaseConfidence()
     {
         ConfidenceMotion -= _confidence_bias * Time.fixedDeltaTime;
-        ConfidenceMotion = Mathf.Clamp(ConfidenceMotion, 0.2f, 1);
+        ConfidenceMotion = Mathf.Clamp(ConfidenceMotion, 0.01f, 1);
+    }
+
+    public void RestartStats()
+    {
+        ConfidenceMotion = 1f;
+        PlayerState = PlayerState.RUNNING;
+        this.transform.position = DEFAULT_POSITION;
     }
 }
