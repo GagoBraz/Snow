@@ -77,5 +77,14 @@ public class EnemySpawner : MonoBehaviour
 
             _wolves.Add(newWolf); 
         }
-    }   
+    }
+    
+    public void RestartSpawner()
+    {
+        _wolves.ForEach(e =>
+        {
+            Destroy(e);
+        });
+        _currentTime = 60.0f;
+    }
 }

@@ -22,6 +22,15 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private PlayerManager player;
 
+    [SerializeField]
+    private EnemySpawner spawner;
+
+    [SerializeField]
+    private GameObject gameOverScreen;
+
+    [SerializeField]
+    private GameObject gameWin;
+
 
     [SerializeField]
     TMP_Text timerText;
@@ -42,7 +51,7 @@ public class GameManager : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if(player.PlayerState != PlayerState.DEAD)
+        if(player.PlayerState != PlayerState.DEAD && timeToSurvival > 0)
         {
             timeToSurvival -= Time.fixedUnscaledDeltaTime;
             if (timerText)
@@ -50,18 +59,26 @@ public class GameManager : MonoBehaviour
                 var ts = TimeSpan.FromSeconds(timeToSurvival);
                 timerText.text = string.Format("{0:00}:{1:00}", ts.Minutes, ts.Seconds);
             }
+           
+        }
+        if(timeToSurvival <= 0)
+        {
+            CallWin();    
         }
     }
-    private void CallGameOver()
+    public void CallGameOver()
     {
-        //TODO Implement Game Over Screen here
-
-
+        Invoke("CallGameOverScreen", 0.5f);
     }
 
-    private void CallRestart()
+    public void CallWin()
     {
-        wave = Wave.FIRST;
+        gameWin.SetActive(true);
+    }
+
+    private void CallGameOverScreen()
+    {
+        gameOverScreen.SetActive(true);
     }
 
     private void ChangeWaveText()
@@ -78,5 +95,17 @@ public class GameManager : MonoBehaviour
                 waveText.text = "Wave: Third";
                 break;
         }
+    }
+
+
+    public void RestartGame()
+    {
+        gameOverScreen.SetActive(false);
+        timeToSurvival = 180.0f;
+        wave = Wave.FIRST;
+        player.RestartStats();
+        spawner.RestartSpawner();
+
+        
     }
 }
