@@ -1,0 +1,1076 @@
+fileFormatVersion: 2
+guid: e127b3e1b2928c74682286a2522d35da
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9098536086833046246
+    second: hare_animation_0
+  - first:
+      213: -8270407849825321289
+    second: hare_animation_1
+  - first:
+      213: -8297754450642870074
+    second: hare_animation_2
+  - first:
+      213: 7705803649576448742
+    second: hare_animation_3
+  - first:
+      213: 3848749552385609234
+    second: hare_animation_4
+  - first:
+      213: 6033747269624907643
+    second: hare_animation_5
+  - first:
+      213: 885467466527913572
+    second: hare_animation_6
+  - first:
+      213: 3718991496302673373
+    second: hare_animation_7
+  - first:
+      213: 533662045032797829
+    second: hare_animation_8
+  - first:
+      213: -3913371297535550647
+    second: hare_animation_9
+  - first:
+      213: -4163639516324099407
+    second: hare_animation_10
+  - first:
+      213: -4747022328409045392
+    second: hare_animation_11
+  - first:
+      213: -3705022411248739803
+    second: hare_animation_12
+  - first:
+      213: -585280624737954263
+    second: hare_animation_13
+  - first:
+      213: 2448889533054975241
+    second: hare_animation_14
+  - first:
+      213: 4536265609432140489
+    second: hare_animation_15
+  - first:
+      213: -6278140992924926821
+    second: hare_animation_16
+  - first:
+      213: -8646641773080318728
+    second: hare_animation_17
+  - first:
+      213: 1498101694265368013
+    second: hare_animation_18
+  - first:
+      213: -698026580869498235
+    second: hare_animation_19
+  - first:
+      213: 7065638697934474886
+    second: hare_animation_20
+  - first:
+      213: 7938634745487834175
+    second: hare_animation_21
+  - first:
+      213: 5174195311021600295
+    second: hare_animation_22
+  - first:
+      213: 1470771282128292669
+    second: hare_animation_23
+  - first:
+      213: -5669545482646396752
+    second: hare_animation_24
+  - first:
+      213: -1075808321539771496
+    second: hare_animation_25
+  - first:
+      213: -6862373780819471717
+    second: hare_animation_26
+  - first:
+      213: 8149302805038077915
+    second: hare_animation_27
+  - first:
+      213: 8840056008416070259
+    second: hare_animation_28
+  - first:
+      213: 2738776140904335574
+    second: hare_animation_29
+  - first:
+      213: 7597997301030024353
+    second: hare_animation_30
+  - first:
+      213: -385023635870855050
+    second: hare_animation_31
+  - first:
+      213: -4830195033774977743
+    second: hare_animation_32
+  - first:
+      213: 6880071900013213448
+    second: hare_animation_33
+  - first:
+      213: 871929457495049325
+    second: hare_animation_34
+  - first:
+      213: 7868158025406342628
+    second: hare_animation_35
+  - first:
+      213: -3836492673715039792
+    second: hare_animation_36
+  - first:
+      213: -634512008243129505
+    second: hare_animation_37
+  - first:
+      213: -3983530698075438762
+    second: hare_animation_38
+  - first:
+      213: 8064664546800360404
+    second: hare_animation_39
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hare_animation_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 4
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d5e3892a18bb180800000000000000
+      internalID: -9098536086833046246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hare_animation_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 13
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be3f8b01eb993d80800000000000000
+      internalID: -8270407849825321289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hare_animation_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 16
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0e3006a4478dc80800000000000000
+      internalID: -8297754450642870074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hare_animation_3
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 8
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e2b9e9979380fa60800000000000000
+      internalID: 7705803649576448742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hare_animation_4
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 4
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e436b8351896530800000000000000
+      internalID: 3848749552385609234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hare_animation_5
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 4
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77c97e6c2d2cb350800000000000000
+      internalID: 6033747269624907643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hare_animation_6
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 13
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466bf8a28ffc94c00800000000000000
+      internalID: 885467466527913572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hare_animation_7
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 16
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dddb1d3df038c9330800000000000000
+      internalID: 3718991496302673373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hare_animation_8
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 8
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586d9407dc2f76700800000000000000
+      internalID: 533662045032797829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hare_animation_9
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 4
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b1f20f989e0b9c0800000000000000
+      internalID: -3913371297535550647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hare_animation_10
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 4
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba09b87be7c736c0800000000000000
+      internalID: -4163639516324099407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hare_animation_11
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 9
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076c456d7503f1eb0800000000000000
+      internalID: -4747022328409045392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hare_animation_12
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 0
+        width: 39
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a58ac3fbd159cc0800000000000000
+      internalID: -3705022411248739803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hare_animation_13
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 8
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926539c6f5aa0e7f0800000000000000
+      internalID: -585280624737954263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hare_animation_14
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 4
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90df9e73e043cf120800000000000000
+      internalID: 2448889533054975241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hare_animation_15
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 4
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca0601a98d04fe30800000000000000
+      internalID: 4536265609432140489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hare_animation_16
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 9
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c34eaa7009fd8a0800000000000000
+      internalID: -6278140992924926821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hare_animation_17
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 0
+        width: 39
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc6e778e15f00880800000000000000
+      internalID: -8646641773080318728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hare_animation_18
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 8
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd191cbd835ac410800000000000000
+      internalID: 1498101694265368013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hare_animation_19
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 4
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a3e73e58c1056f0800000000000000
+      internalID: -698026580869498235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hare_animation_20
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 4
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e43add5f03e0260800000000000000
+      internalID: 7065638697934474886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hare_animation_21
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 4
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c30668d32bb2e60800000000000000
+      internalID: 7938634745487834175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hare_animation_22
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 6
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e2fe7a83f6ec740800000000000000
+      internalID: 5174195311021600295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hare_animation_23
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 4
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b4a1940ba396410800000000000000
+      internalID: 1470771282128292669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hare_animation_24
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 4
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0e0fc0c6ab151b0800000000000000
+      internalID: -5669545482646396752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hare_animation_25
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 4
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893763c0806f111f0800000000000000
+      internalID: -1075808321539771496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hare_animation_26
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 4
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b921d4e9763f3c0a0800000000000000
+      internalID: -6862373780819471717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hare_animation_27
+      rect:
+        serializedVersion: 2
+        x: 1743
+        y: 6
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7936d69b3281170800000000000000
+      internalID: 8149302805038077915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hare_animation_28
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 4
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a82306a103eaa70800000000000000
+      internalID: 8840056008416070259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hare_animation_29
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 4
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d80be5b366120620800000000000000
+      internalID: 2738776140904335574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hare_animation_30
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 4
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a475441a42817960800000000000000
+      internalID: 7597997301030024353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hare_animation_31
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 6
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670d9c90b0f18aaf0800000000000000
+      internalID: -385023635870855050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hare_animation_32
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 6
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d8cff4533b7fcb0800000000000000
+      internalID: -4830195033774977743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hare_animation_33
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 6
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8073f6dd0fcea7f50800000000000000
+      internalID: 6880071900013213448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hare_animation_34
+      rect:
+        serializedVersion: 2
+        x: 2191
+        y: 4
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64013fc837b91c00800000000000000
+      internalID: 871929457495049325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hare_animation_35
+      rect:
+        serializedVersion: 2
+        x: 2252
+        y: 4
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e5ebfc6900513d60800000000000000
+      internalID: 7868158025406342628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hare_animation_36
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 6
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d193d76d3a02cac0800000000000000
+      internalID: -3836492673715039792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hare_animation_37
+      rect:
+        serializedVersion: 2
+        x: 2379
+        y: 6
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53d2f6b0b2c137f0800000000000000
+      internalID: -634512008243129505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hare_animation_38
+      rect:
+        serializedVersion: 2
+        x: 2443
+        y: 6
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651895d8fe7a7b8c0800000000000000
+      internalID: -3983530698075438762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hare_animation_39
+      rect:
+        serializedVersion: 2
+        x: 2507
+        y: 4
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dbd8b84da17bef60800000000000000
+      internalID: 8064664546800360404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

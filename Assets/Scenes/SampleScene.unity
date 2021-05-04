@@ -4839,6 +4839,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2537971690454949890, guid: e742e9491bfae9f45b705498b76e942c,
         type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2537971690454949890, guid: e742e9491bfae9f45b705498b76e942c,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.9812508
       objectReference: {fileID: 0}
@@ -4854,6 +4859,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2537971690454949890, guid: e742e9491bfae9f45b705498b76e942c,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2537971690454949890, guid: e742e9491bfae9f45b705498b76e942c,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
@@ -4866,16 +4876,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2537971690454949890, guid: e742e9491bfae9f45b705498b76e942c,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2537971690454949890, guid: e742e9491bfae9f45b705498b76e942c,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 2537971690454949890, guid: e742e9491bfae9f45b705498b76e942c,
         type: 3}
@@ -5677,8 +5677,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 0.24, y: 0.44}
+    oldSize: {x: 0.38, y: 0.4}
+    newSize: {x: 0.38, y: 0.4}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -5744,13 +5744,13 @@ SpriteRenderer:
   m_SortingLayerID: -1304523903
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: -7036055868314429257, guid: 2d5119d7e88d7224aa396734817e9897,
+  m_Sprite: {fileID: -7919581927383161411, guid: 49e14a4bad952a24b87297ab4c138fde,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.24, y: 0.44}
+  m_Size: {x: 0.38, y: 0.4}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
