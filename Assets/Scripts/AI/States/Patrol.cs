@@ -39,8 +39,11 @@ public class Patrol : State
     private void Movement()
     {
         Quaternion lookatWP = Quaternion.LookRotation(this._pointToGo.transform.position - this.npc.transform.position);
+        var rotation = Quaternion.Slerp(this.npc.transform.rotation, lookatWP, _rotSpeed * Time.deltaTime);
 
-        this.npc.transform.rotation = Quaternion.Slerp(this.npc.transform.rotation, lookatWP, _rotSpeed * Time.deltaTime);
+
+        this.npc.transform.rotation = rotation;
+        
 
         this.npc.transform.Translate(0, 0, _idleVelocity * Time.deltaTime);
     }

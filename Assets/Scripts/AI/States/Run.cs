@@ -44,6 +44,7 @@ public class Run : State
         Quaternion lookatWP = Quaternion.LookRotation(this.player.transform.position - this.npc.transform.position);
 
         this.npc.transform.rotation = Quaternion.Slerp(this.npc.transform.rotation, lookatWP, _rotSpeed * Time.deltaTime);
+        this.npc.transform.rotation = Quaternion.Euler(this.npc.transform.eulerAngles.x, 0, this.npc.transform.eulerAngles.z);
 
         this.npc.transform.Translate(0, 0, _velocity * Time.fixedDeltaTime);
         _velocity += _acceleration;
