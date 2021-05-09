@@ -8,12 +8,14 @@ public class Run : State
     Collider2D _playerCollider;
     float _velocity = 3.0f;
     float _acceleration = 0.0001f;
+    Quaternion _currentQuartenion = Quaternion.identity;
 
-    public Run(GameObject npc, Animator anim, Transform player, Rigidbody2D rbody, List<GameObject> goToPoints) :
-        base(npc, anim, player, rbody, goToPoints)
+
+    public Run(GameObject npc, IsometricWolfRenderer wolfRenderer, Transform player, Rigidbody2D rbody, List<GameObject> goToPoints) :
+        base(npc, wolfRenderer, player, rbody, goToPoints)
     {
         this.npc = npc;
-        this.anim = anim;
+        this._wolfRenderer = wolfRenderer;
         this.player = player;
         this._rbody = rbody;
         this.goToPoints = goToPoints;
@@ -42,11 +44,12 @@ public class Run : State
     private void MoveToPlayer()
     {
         Quaternion lookatWP = Quaternion.LookRotation(this.player.transform.position - this.npc.transform.position);
+        _currentQuartenion = Quaternion.Slerp(_currentQuartenion, lookatWP, _rotSpeed * Time.fixedDeltaTime);
 
-        this.npc.transform.rotation = Quaternion.Slerp(this.npc.transform.rotation, lookatWP, _rotSpeed * Time.deltaTime);
-        this.npc.transform.rotation = Quaternion.Euler(this.npc.transform.eulerAngles.x, 0, this.npc.transform.eulerAngles.z);
+        Vector2 translation = _currentQuartenion * new Vector3(0, 0, _velocity * Time.fixedDeltaTime);
 
-        this.npc.transform.Translate(0, 0, _velocity * Time.fixedDeltaTime);
+        this._wolfRenderer.SetDirection(translation);
+        this.npc.transform.Translate(translation);
         _velocity += _acceleration;
     }
 
@@ -58,7 +61,7 @@ public class Run : State
         {
             if (!currentCollider.IsTouching(_playerCollider) || _playerManager.PlayerState == PlayerState.HIDING)
             {
-                nextState = new Patrol(npc, anim, player, _rbody, goToPoints);
+                nextState = new Patrol(npc, _wolfRenderer, player, _rbody, goToPoints);
                 stage = EVENT.EXIT;
             }
         }
@@ -69,7 +72,7 @@ public class Run : State
             if(biteCollider.IsTouching(_playerCollider) && _playerManager.PlayerState == PlayerState.RUNNING)
             {
                 _playerManager.CallGameOver();
-                nextState = new Patrol(npc, anim, player, _rbody, goToPoints);
+                nextState = new Patrol(npc, _wolfRenderer, player, _rbody, goToPoints);
                 stage = EVENT.EXIT;
             }
         }

@@ -48,7 +48,10 @@ public class IsometricRenderer : MonoBehaviour
             directionArray = _jumpDirections;
             _lastDirection = DirectionToIndex(direction, 8);
         }
-
+        else
+        {
+            directionArray = _staticDirections;
+        }
 
         _animator.Play(directionArray[_lastDirection]);
     }

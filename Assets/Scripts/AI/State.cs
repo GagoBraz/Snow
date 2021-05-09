@@ -20,13 +20,13 @@ public class State
     protected EVENT stage;
 
     protected GameObject npc;
-    protected Animator anim;
 
     protected Transform player;
     protected State nextState;
 
     protected Rigidbody2D _rbody;
     protected PlayerManager _playerManager;
+    protected IsometricWolfRenderer _wolfRenderer;
 
 
     protected List<GameObject> goToPoints = new List<GameObject>();
@@ -38,10 +38,10 @@ public class State
     protected float _rotSpeed = 100f;
 
 
-    public State(GameObject npc, Animator anim, Transform player, Rigidbody2D rbody, List<GameObject> goToPoints)
+    public State(GameObject npc, IsometricWolfRenderer wolfRenderer, Transform player, Rigidbody2D rbody, List<GameObject> goToPoints)
     {
         this.npc = npc;
-        this.anim = anim;
+        this._wolfRenderer = wolfRenderer;
         this.stage = EVENT.ENTER;
         this.player = player;
         this._rbody = rbody;

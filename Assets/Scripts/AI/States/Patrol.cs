@@ -9,12 +9,14 @@ public class Patrol : State
     GameObject _pointToGo;
     List<Collider2D> _colliders = new List<Collider2D>();
     Collider2D _playerCollider;
+
+    Quaternion _currentQuartenion = Quaternion.identity;
     float _angle; 
-    public Patrol(GameObject npc, Animator anim, Transform player, Rigidbody2D rbody, List<GameObject> goToPoints):
-        base(npc, anim, player, rbody, goToPoints)
+    public Patrol(GameObject npc, IsometricWolfRenderer wolfRenderer, Transform player, Rigidbody2D rbody, List<GameObject> goToPoints):
+        base(npc, wolfRenderer, player, rbody, goToPoints)
     {
         this.npc = npc;
-        this.anim = anim;
+        this._wolfRenderer = wolfRenderer;
         this.player = player;
         this._rbody = rbody;
         this.goToPoints = goToPoints;
@@ -39,17 +41,15 @@ public class Patrol : State
     private void Movement()
     {
         Quaternion lookatWP = Quaternion.LookRotation(this._pointToGo.transform.position - this.npc.transform.position);
-        var rotation = Quaternion.Slerp(this.npc.transform.rotation, lookatWP, _rotSpeed * Time.deltaTime);
+         _currentQuartenion = Quaternion.Slerp(_currentQuartenion, lookatWP, _rotSpeed * Time.fixedDeltaTime);
 
+        Vector2 translation = _currentQuartenion * new Vector3(0, 0, _idleVelocity * Time.fixedDeltaTime);
 
-        this.npc.transform.rotation = rotation;
-        
-
-        this.npc.transform.Translate(0, 0, _idleVelocity * Time.deltaTime);
+        this._wolfRenderer.SetDirection(translation);
+        this.npc.transform.Translate(translation);
     }
     private void DefinePointToGo()
     {
-
         _pointToGo = this.goToPoints[Random.Range(0, goToPoints.Count)];
     }
 
@@ -69,7 +69,7 @@ public class Patrol : State
         {
             if (currentCollider.IsTouching(_playerCollider) && _playerManager.PlayerState == PlayerState.RUNNING)
             {
-                nextState = new Run(npc, anim, player, _rbody, goToPoints);
+                nextState = new Run(npc, _wolfRenderer, player, _rbody, goToPoints);
                 stage = EVENT.EXIT;
             }
         }
